@@ -1,0 +1,172 @@
+
+/* Body styles */
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto-Mono', monospace;
+}
+
+/* Header styles */
+.header {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    text-justify: auto;
+}
+
+.header h1 {
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: #003249;
+}
+
+header p {
+    margin: 70px;
+}
+
+nav {
+    display: flex;
+    background-color: #003249;
+    color: #fff;
+    align-items: center; /* Align items horizontally */
+}
+
+
+.logo {
+    width: 250px; /* Adjust width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    padding: 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px; /* Add margin between nav links */
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+    padding: 10px;
+    
+}
+
+nav a:hover {
+    transform: scale(1.1); /* Scale the button to 110% of its original size on hover */
+}
+
+nav a:last-child {
+    margin-right: 0; /* Remove margin from the last nav link */
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+section button {
+    background-color: #003249;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 0px;
+    width: 200px; /* Adjust width to increase button size */
+    height: 50px; /* Adjust height to increase button size */
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+button:hover {
+    transform: scale(1.1); /* Scale the button to 110% of its original size on hover */
+}
+
+
+
+.three-column-list {
+    columns: 3; /* Set the number of columns */
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.three-column-list li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+section a{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'oswald', sans-serif;
+}
+
+
+
+
+
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    width: 50%;
+    height: auto;
+    text-align: center; /* Center the contents horizontally */
+    margin: 0 auto; /* Center the container itself */
+}
+
+
+
+
+
+
+
+
+
+
+a:visited{
+    text-decoration: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Center items horizontally */
+    padding-top: 60px; /* Adjust padding top as needed */
+}
+
+/* Adjust the width of the iframe */
+iframe {
+    width: 640px; /* Increase the width */
+    height: 360px; /* Increase the height */
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #003249;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    justify-content: flex-end;
+}
+
+footer p {
+    margin: 0;
+}

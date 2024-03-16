@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="styles_booking.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+    <nav>
+            <img src = "phantom_phenomenon.png" class = "logo">
+        <a href ="index.html"> Home </a> |
+        <a href ="booking.html"> Booking </a> |
+        <a href ="https://sins-of-the-hunters.printify.me/products"> Merch </a> |
+        <a href ="about.html"> About Us </a>
+    </nav>
+    </header>
+    
+    <main>
+        <main>
+            <section class="intro">
+                <div class="intro-content">
+                    <h2>Have YOU experienced a phantom phenomenon?</h2><br>
+                    <p>We want to know about it!</p>
+                    <p>Fill out the form below for a chance to be featured in a future vlog! If selected, we'll contact you via email within 30 business days. See FAQ for more details. Terms and conditions apply.</p>
+                </div>
+            </section>
+        </main>
+        
+        <section class="booking">
+            <h2>Book Now!</h2><br>
+            <form action="booking_handler.php" method="POST" class="booking">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br><br>
+                
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required><br><br>
+
+                <label for="story">Tell us your story:</label>
+                <input type="story" id="story" name="story" required><br><br>
+                
+                <input type="submit" value="Book Now">
+            </form>
+        </section>
+        
+        <section>
+            <h1>FAQ</h1>
+            <div class="faq">
+                <div class="question">
+                    <h2>What if I won't be home?</h2>
+                    <div class="answer">
+                        <p>Just trust me bro, we're professionals. Ghosts love us &lt;3 </p>
+                    </div>
+                </div>
+                <div class="question">
+                    <h2>What are the terms and conditions?</h2>
+                    <div class="answer">
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="question">
+                    <h2>Do you ACTUALLY believe in ghosts?</h2>
+                    <div class="answer">
+                        <p>We believe in the power of money &#x1F47B;</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Phantom Phenomenon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
